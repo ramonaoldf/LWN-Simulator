@@ -26,12 +26,16 @@ sed -i s/%DEV_RXS0_FREQDOWNLINK%/$DEV_RXS0_FREQDOWNLINK/g lwnsimulatordata/devic
 sed -i s/%DEV_RXS0_MINDR%/$DEV_RXS0_MINDR/g lwnsimulatordata/devices.json
 sed -i s/%DEV_RXS0_MAXDR%/$DEV_RXS0_MAXDR/g lwnsimulatordata/devices.json
 sed -i s/%DEV_RXS0_DATARATE%/$DEV_RXS0_DATARATE/g lwnsimulatordata/devices.json
+sed -i s/%DEV_RXS0_DELAY%/$DEV_RXS0_DELAY/g lwnsimulatordata/devices.json
+sed -i s/%DEV_RXS0_DELAYOPEN%/$DEV_RXS0_DELAYOPEN/g lwnsimulatordata/devices.json
 
 sed -i s/%DEV_RXS1_FREQUPLINK%/$DEV_RXS1_FREQUPLINK/g lwnsimulatordata/devices.json
 sed -i s/%DEV_RXS1_FREQDOWNLINK%/$DEV_RXS1_FREQDOWNLINK/g lwnsimulatordata/devices.json
 sed -i s/%DEV_RXS1_MINDR%/$DEV_RXS1_MINDR/g lwnsimulatordata/devices.json
 sed -i s/%DEV_RXS1_MAXDR%/$DEV_RXS1_MAXDR/g lwnsimulatordata/devices.json
 sed -i s/%DEV_RXS1_DATARATE%/$DEV_RXS1_DATARATE/g lwnsimulatordata/devices.json
+sed -i s/%DEV_RXS1_DELAY%/$DEV_RXS1_DELAY/g lwnsimulatordata/devices.json
+sed -i s/%DEV_RXS1_DELAYOPEN%/$DEV_RXS1_DELAYOPEN/g lwnsimulatordata/devices.json
 
 case $DEV_REGION in
   EU868)

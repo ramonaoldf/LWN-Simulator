@@ -43,8 +43,8 @@
 			},
 			"rxs": [
 				{
-					"delay": 1000,
-					"durationOpen": 5000,
+					"delay": %DEV_RXS0_DELAY%,
+					"durationOpen": %DEV_RXS0_DELAYOPEN%,
 					"channel": {
 						"active": true,
 						"enableUplink": true,
@@ -56,8 +56,8 @@
 					"dataRate": %DEV_RXS0_DATARATE%
 				},
 				{
-					"delay": 1000,
-					"durationOpen": 3000,
+					"delay": %DEV_RXS1_DELAY%,
+					"durationOpen": %DEV_RXS1_DELAYOPEN%,
 					"channel": {
 						"active": true,
 						"enableUplink": false,
