@@ -38,16 +38,10 @@ There are two types of gateway:
 * A real gateway to which datagrams UDP are forwarded.
 
 ## Requirements
-* If you don't have a real infrastracture, you can download [ChirpStack open-source LoRaWAN® Network Server](https://www.chirpstack.io/project/), or a similar software, to prove it;
 * If you have a real infrastructure, be sure that the gateways and LoRaWAN servers ar reachable from the simulator.
 
 
 ## Installation
-
-### From binary file
-You can download from realeses section the pre-compiled binary file.
-
-[Releases Page](https://github.com/UniCT-ARSLab/LWN-Simulator/releases) 
 
 ### From source code
 
@@ -58,7 +52,6 @@ Firstly, you must clone this repository:
 ```bash
 git clone https://github.com/UniCT-ARSLab/LWN-Simulator.git
 ```
-After the download, you must enter in main directory:
 
 ```bash
 cd LWNSimulator
